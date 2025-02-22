@@ -1,0 +1,108 @@
+/* Serena Luna */
+.header a.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+}  
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 8px 10px;
+}
+/* tombol home */
+.header a.active {
+  background-color:black;
+  color: white;
+}
+/* home dan about di kanan */
+.header-right {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 20px;
+}
+/* biodata */
+#title {
+  background-color: #ffffff; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px; 
+  margin-top: 20px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+  font-weight: bold;
+}
+h1 {
+  color: #333; 
+  margin-bottom: 20px; 
+}
+.biodata {
+display: flex;
+flex-direction: column; 
+align-items: flex-start; 
+margin-top: 20px;
+}
+.biodata-item {
+display: flex; 
+width: 100%; 
+padding: 10px 0; 
+}
+.label {
+font-weight: bold; 
+color: #555; 
+width: 150px; 
+}
+.separator {
+margin: 0 10px;
+font-weight: bold; 
+}
+.value {
+color: #777; 
+flex-grow: 1; 
+}
+
+/* subjudul about me dan pendidikan */
+h3, h5{
+  color: rgba(235, 70, 158, 0.774); 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+p {
+  color: black 
+}
+/* latar belakang */
+body {
+  background-color: #f8f9fa; 
+  font-family: 'Arial', sans-serif; 
+}
+
+/* footer */
+#footer {
+  width: 100%; 
+  position: relative; 
+  left: 0; 
+  right: 0; 
+  margin: 0; 
+  padding: 20px 0; 
+  background-color:white; 
+  text-align: center; 
+}
+#footer p {
+  margin: 0; 
+  color: #333; 
+  font-size: 14px; 
+}
